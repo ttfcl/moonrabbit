@@ -89,19 +89,25 @@ a {
     color: white;
     margin-top: 50px;
     font-size: 32px;
-    display: flex;
+    /* display: flex;
     width: fit-content;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     margin-left: auto;
     margin-right: auto;
 }
 .section2Left {
-    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    max-width: 1320px;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
 }
 .section2LeftTop {
     font-family: "sFont";
+    max-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .section2LeftContentTitle {
     font-size: 48px;
@@ -127,7 +133,14 @@ a {
     font-family: "gFont";
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-weight: 700;
+}
+@media (min-width: 600px) {
+    .section2LeftContent {
+        width: 400px;
+    }   
 }
 .section2LeftContentMenuTitle {
     text-align: center;
@@ -167,13 +180,11 @@ a {
 }
 
 .section2Right {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .section2RightBox {
     max-width: 400px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 .section2RightContent {
     max-width: 400px;
@@ -185,5 +196,10 @@ a {
     font-weight: 700;
     font-family: "sFont";
     text-align: center;
+}
+.section2RightControll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 /*섹션2--------*/
