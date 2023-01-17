@@ -40,6 +40,11 @@ a {
     font-weight: 700;
     text-align: center;
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("image/백그라운드4.png");
+
 }
 .section1Title {
     display: flex;
@@ -87,7 +92,6 @@ a {
 /*섹션2--------*/
 .section2 {
     color: white;
-    margin-top: 50px;
     font-size: 32px;
     /* display: flex;
     width: fit-content;
@@ -102,6 +106,15 @@ a {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 50px;
+}
+.section2LeftControll {
+    padding-top: 50px;
+    background-image: url(image/백그라운드2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: right center;
 }
 .section2LeftTop {
     font-family: "sFont";
@@ -127,7 +140,7 @@ a {
     color: rgb(0, 110, 255);
 }
 .section2LeftContent, .section2LeftQnA, .section2LeftPhone {
-    border-top: 4px solid white;
+
     max-width: 400px;
     font-size: 20px;
     font-family: "gFont";
@@ -178,7 +191,13 @@ a {
     font-size: 24px;
     font-weight: 700;
 }
-
+.section2LeftContent,.section2LeftQnA {
+    border: 5px solid rgb(245, 211, 126);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #0d100f;
+}
 .section2Right {
     margin-left: 20px;
     margin-right: 20px;
@@ -201,5 +220,10 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 50px;
+    background-image: url(image/백그라운드5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*섹션2--------*/
