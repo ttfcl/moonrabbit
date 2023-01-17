@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "gFont";
+    src: url("폰트/Pretendard-Light.ttf") format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "sFont";
+    src: url("폰트/SingleDay-Regular.ttf") format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: black;
+    font-family: "gFont";
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*네비바--------*/
+
+
+/*섹션1--------*/
+.section1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.section1Title {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.section1Icon{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section1Icon2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    animation-name: color3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes color3 {
+    0% {
+        color: white;
+    }
+    100% {
+        color: rgb(0, 110, 255);
+    }
+}
+
+.section1Title > span {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/*섹션1--------*/
+
+
+/*섹션2--------*/
+.section2 {
+    color: white;
+    margin-top: 50px;
+    font-size: 32px;
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section2Left {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section2LeftTop {
+    font-family: "sFont";
+}
+.section2LeftContentTitle {
+    font-size: 48px;
+    font-weight: 700;
+}
+.section2LeftNumber {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+.section2LeftNumberIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    color: rgb(0, 110, 255);
+}
+.section2LeftContent, .section2LeftQnA, .section2LeftPhone {
+    border-top: 4px solid white;
+    max-width: 400px;
+    font-size: 20px;
+    font-family: "gFont";
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+.section2LeftContentMenuTitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.section2LeftContentMenuTitleMini {
+    font-size: 18px;
+}
+.section2LeftContentMenuContent {
+    margin-top: 10px;
+}
+.section2LeftContentMenuContent > span {
+    margin-left: 30px;
+}
+.section2LeftQnATitle {
+    text-align: center;
+    font-size: 24px;
+}
+.section2LeftQnAContent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section2LeftQnAContentTitle {
+    font-size: 22px;
+}
+.section2LeftQnAContentTitle > img {
+    margin-right: 10px;
+}
+.section2LeftQnAContentContent {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.section2LeftPhoneText {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section2Right {
+    margin-left: auto;
+    margin-right: auto;
+}
+.section2RightBox {
+    max-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.section2RightContent {
+    max-width: 400px;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.section2RightContentText {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "sFont";
+    text-align: center;
+}
+/*섹션2--------*/
